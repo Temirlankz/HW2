@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW2
 {
-    internal class Admin
+    internal class Admin: User
     {
         public string Mail { get; set; }
     }
